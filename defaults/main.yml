@@ -5,7 +5,7 @@ option_install_java: false
 
 java_version: 7
 
-pycharm_version: "2016.1.4" #"2016.1" #5.0.1 # 4.5.4
+pycharm_version: "2016.2" #"2016.1.4" #"2016.1" #5.0.1 # 4.5.4
 pycharm_edition: community # professional | community
 
 
