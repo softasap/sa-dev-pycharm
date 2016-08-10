@@ -13,4 +13,7 @@ root_dir: "{{role_path}}"
 deploy_user: "{{ansible_user_id}}"
 apps_dir: "/home/{{ansible_user_id}}/apps"
 
+desktop_dir: "Desktop"
 
+sysctl_conf_lines:
+  - { name: 'fs.inotify.max_user_watches', value: '524288' }

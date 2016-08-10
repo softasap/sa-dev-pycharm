@@ -4,3 +4,5 @@
     when: option_install_java
 
   - include: tasks_jetbrains_pycharm_community.yml
+
+  - include: tasks_sysctl.yml
