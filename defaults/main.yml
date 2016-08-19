@@ -5,7 +5,7 @@ option_install_java: false
 
 java_version: 7
 
-pycharm_version: "2016.2" #"2016.1.4" #"2016.1" #5.0.1 # 4.5.4
+pycharm_version: "2016.2.1" #"2016.2" #"2016.1.4" #"2016.1" #5.0.1 # 4.5.4
 pycharm_edition: community # professional | community
 
 
@@ -13,4 +13,7 @@ root_dir: "{{role_path}}"
 deploy_user: "{{ansible_user_id}}"
 apps_dir: "/home/{{ansible_user_id}}/apps"
 
+desktop_dir: "Desktop"
 
+sysctl_conf_lines:
+  - { name: 'fs.inotify.max_user_watches', value: '524288' }
