@@ -32,11 +32,11 @@ Advanced:
 Usage with ansible galaxy workflow
 ----------------------------------
 
-2. If you installed the sa-vnc-remote-desktop rule using the command
+2. If you installed the sa-dev-pycharm role using the command
 
 
 `
-   ansible galaxy install softasap.sa-vnc-remote-desktop
+   ansible galaxy install softasap.sa-dev-pycharm
 `
 
 the role will be available in the folder library\softasap.sa-dev-pycharm.
